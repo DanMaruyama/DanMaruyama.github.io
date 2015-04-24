@@ -403,24 +403,32 @@
                 <!-- Begin Contact Form -
                 <form action="mailer.php" id="contact_form" method="post" class="wow fadeInUpBig" data-wow-offset="80" data-wow-duration="2s">
 -->
+
+<form action="//formspree.io/danmaruyama@gmail.com" method="POST">
+    
+   
+    
+
                     <p>
                     <label>Name</label>
                     <input type="text" name="name" id="name" value="" class="requiredField name" />
                     </p>
 
                     <p>
-                    <label>Email Address</label>				
-                    <input type="text" name="email" id="email" value=""  class="requiredField email" /> 
+                    <label>Email Address</label>
+                     <input type="email" name="_replyto" id="email" value=""  class="requiredField email" /> 
                     </p>
 
                     <p>
                     <label>Your Message</label>
                     <textarea name="message" id="message" rows="8" cols="30" class="requiredField message"></textarea>
                     </p>
+			 <p>
+			<input type="submit" value="Send" id="submitted" class="submit" type="submit" />
+			</p>
 
-                    <p><input name="submitted" id="submitted" value="Submit" class="submit" type="submit" /></p>
-
-               <!-- </form>  -End Contact Form -->
+		</form>
+               <!--  -End Contact Form -->
 
             </div><!-- End of Content -->
 
