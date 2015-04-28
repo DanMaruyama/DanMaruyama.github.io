@@ -365,7 +365,7 @@ h5 {
     overflow: auto;
 }
 .parallax1 { 
-    background-image: url("../images/Glacier.jpg");
+    background-image: url("../images/Glacier2.jpg");
     overflow: auto;
     padding: 80px 0;
     -webkit-background-size: cover;
@@ -376,7 +376,49 @@ h5 {
 }
 .parallax1 p, .parallax1 h2, .parallax2 p, .parallax2 h2 { color: #ffffff; }
 .parallax2 {
-    background-image: url("../img/background2.jpg");
+    background-image: url("../images/Glacier3.jpg");
+    overflow: auto;
+    padding: 80px 0;
+    -webkit-background-size: cover;
+   -moz-background-size: cover;
+   background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+.parallax3 { 
+    background-image: url("../images/Research2.jpg");
+    overflow: auto;
+    padding: 80px 0;
+    -webkit-background-size: cover;
+   -moz-background-size: cover;
+   background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+.parallax3 p, .parallax3 h2, .parallax4 p, .parallax4 h2 { color: #ffffff; }
+.parallax4 {
+    background-image: url("../images/Links2.jpg");
+    overflow: auto;
+    padding: 80px 0;
+    -webkit-background-size: cover;
+   -moz-background-size: cover;
+   background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+.parallax5 { 
+    background-image: url("../images/Links3.jpg");
+    overflow: auto;
+    padding: 80px 0;
+    -webkit-background-size: cover;
+   -moz-background-size: cover;
+   background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+.parallax5 p, .parallax5 h2, .parallax6 p, .parallax6 h2 { color: #ffffff; }
+.parallax6 {
+    background-image: url("../images/Links4.jpg");
     overflow: auto;
     padding: 80px 0;
     -webkit-background-size: cover;
