@@ -1013,15 +1013,15 @@ Responsive Styling
         -moz-background-size: cover;
         background-size: cover;
         background-position: center center;
-        background-attachment: fixed;
+        background-attachment: scroll;
 		background-repeat: no-repeat;
 		height: 100%;
     }
 	.parallax6 {
-		position: fixed;
+		overflow-y: scroll;
+		background: url(../images/Links4.jpg) no-repeat;
 		width: 100%;
 		height: 100%;
-		background: url(../images/Links4.jpg) no-repeat;
     }
     #contact_form { width: 100%; }
 }
