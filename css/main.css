@@ -1014,13 +1014,11 @@ Responsive Styling
         background-size: cover;
         background-position: center center;
         background-attachment: scroll;
-		background-repeat: no-repeat;
 		height: 100%;
 		width: 100%;
     }
 	.parallax6 {
-		overflow-y: fixed;
-		background: url(../images/Links4.jpg) no-repeat fixed;
+		background: url(../images/Links4.jpg) fixed;
 	    -webkit-background-size: cover;
         -moz-background-size: cover;
 		width: 100%;
