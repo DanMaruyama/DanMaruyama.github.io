@@ -995,17 +995,6 @@ Responsive Styling
     h1 {font-size: 65px; }
     .huge-title { top: 25%; }
     .hero { width: 80%; }
-    .parallax1, .parallax2, .parallax3, .parallax4, .parallax5 .parallax6, {
-        overflow: auto;
-        padding: 80px 0;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        background-size: cover;
-        background-position: center center;
-        background-attachment: scroll;
-        width: 100%;
-        height: 100%;
-    }
     #contact_form { width: 100%; }
 }
 @media all and (max-width: 768px)  {
@@ -1109,6 +1098,17 @@ Responsive Styling
     display: table;
     margin-top: 20px;
     position: relative;
+    }
+	.parallax1, .parallax2, .parallax3, .parallax4, .parallax5 .parallax6, {
+        overflow: auto;
+        padding: 80px 0;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+        background-position: center center;
+        background-attachment: scroll;
+        width: 100%;
+        height: 100%;
     }
 }
 
