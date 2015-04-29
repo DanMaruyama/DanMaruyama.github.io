@@ -416,17 +416,7 @@ h5 {
     background-position: center center;
     background-attachment: fixed;
 }
-.parallax5 p, .parallax5 h2, .parallax6 p, .parallax6 h2 { color: #ffffff; }
-.parallax6 {
-    background-image: url("../images/Links4.jpg");
-    overflow: auto;
-    padding: 80px 0;
-    -webkit-background-size: cover;
-   -moz-background-size: cover;
-   background-size: cover;
-    background-position: center center;
-    background-attachment: fixed;
-}
+.parallax5 p, .parallax5 h2 { color: #ffffff; }
 .wrapper {
     background: none repeat scroll 0 0 transparent;
     width: 100%;
@@ -1018,7 +1008,7 @@ Responsive Styling
 		width: 100%;
     }
 	.parallax6 {
-		background: url(../images/Links4.jpg) fixed;
+		background: url(../images/Links4.jpg) repeat fixed;
 	    -webkit-background-size: cover;
         -moz-background-size: cover;
 		width: 100%;
