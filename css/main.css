@@ -1014,8 +1014,6 @@ Responsive Styling
         background-size: cover;
         background-position: center center;
         background-attachment: fixed;
-        width: 100%;
-        height: 100%;
     }
     #contact_form { width: 100%; }
 }
