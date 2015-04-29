@@ -995,7 +995,7 @@ Responsive Styling
     h1 {font-size: 65px; }
     .huge-title { top: 25%; }
     .hero { width: 80%; }
-    .parallax1, .parallax2, .parallax3, .parallax4, .parallax5 .parallax6 {
+    .parallax1, .parallax2, .parallax3, .parallax4, .parallax5, .parallax6 {
         overflow: auto;
         padding: 80px 0;
         -webkit-background-size: cover;
