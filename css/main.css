@@ -1013,6 +1013,7 @@ Responsive Styling
         -moz-background-size: cover;
         background-size: cover;
         background-position: center center;
+		background: no-repeat;
         height: 100%;
 		width: 100%;
     }
